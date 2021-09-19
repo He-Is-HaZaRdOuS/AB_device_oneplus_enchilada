@@ -24,6 +24,7 @@ $(call inherit-product, device/oneplus/enchilada/device.mk)
 
 # Inherit some common Derp stuff.
 $(call inherit-product, vendor/derp/config/common_full_phone.mk)
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
